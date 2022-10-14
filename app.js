@@ -1,5 +1,10 @@
-const numGenerator = Math.floor(Math.random() * 8);
+const userChoice = "";
+// Write either "FuNNy" or "moTivatiOn" between the "" marks and 
+// RUN the Program :)
 
+
+
+const numGenerator = Math.floor(Math.random() * 8);
 const funnyQuotes = [
 "The elevator to success is out of order. You'll have to use the stairs, one step at a time. - Joe Girard", 
 "Be a positive energy trampoline - absorb what you need and rebound more back. - Dave Carolan", 
@@ -20,18 +25,12 @@ const motivationalQuotes = [
 "Nature has given us all the pieces required to achieve exceptional wellness and health, but has left it to us to put these pieces together. — Diane McLaren ", 
 "It is better to fail in originality than to succeed in imitation. — Herman Melville "
 ];
-for (let i = 0; i < funnyQuotes.length; i++) {
-  // console.log(i)
-}
-
-// console.log(numGenerator);
 
 function returnQuote(userChoice) {
   if (userChoice.toLowerCase() === "funny") {
-    return (funnyQuotes[numGenerator])
+    console.log(funnyQuotes[numGenerator]);
   } else if (userChoice.toLowerCase() === "motivation") {
-    return (motivationalQuotes[numGenerator])
+    console.log(motivationalQuotes[numGenerator]);
   }
 }
-// returnQuote("funny")
-console.log(returnQuote("fuNNy"));
+returnQuote(userChoice);
