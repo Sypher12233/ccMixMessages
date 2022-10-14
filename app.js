@@ -1,4 +1,4 @@
-const numGenerator = Math.floor(Math.random() * 8)
+const numGenerator = Math.floor(Math.random() * 8);
 
 const funnyQuotes = [
 "The elevator to success is out of order. You'll have to use the stairs, one step at a time. - Joe Girard", 
@@ -24,4 +24,14 @@ for (let i = 0; i < funnyQuotes.length; i++) {
   // console.log(i)
 }
 
-console.log(numGenerator)
+// console.log(numGenerator);
+
+function returnQuote(userChoice) {
+  if (userChoice.toLowerCase() === "funny") {
+    return (funnyQuotes[numGenerator])
+  } else if (userChoice.toLowerCase() === "motivation") {
+    return (motivationalQuotes[numGenerator])
+  }
+}
+// returnQuote("funny")
+console.log(returnQuote("fuNNy"));
