@@ -17,7 +17,19 @@ The goal of this project is to help someone learn something new or make feel a b
 
 We will be using [vscode](https://code.visualstudio.com/) as our text editor of choice.
 
+To run the `app.js` file you need to have [node](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjhprupsuD6AhUG_CoKHY_0AEUQjBB6BAgJEAE&url=https%3A%2F%2Fnodejs.org%2Fen%2Fdownload%2F&usg=AOvVaw3mpn_kqKBfLUVM2X6RrMKX) installed on your machine.
 
+From the terminal (either on vscode or not) run;
+
+```js
+node app.js
+```
+
+> Note: You need to be on the same directory or provide the file path to run the program
+
+![(>)](./latest%20sc.png)
+
+And thats all for now 😊
 
 ### Contacts ###
 

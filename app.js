@@ -1,4 +1,4 @@
-const userChoice = "";
+const userChoice = "funny";
 // Write either "FuNNy" for funny quotes or 
 // "moTivatiOn" to get motivational quotes between the "" marks and 
 // RUN the Program :)
