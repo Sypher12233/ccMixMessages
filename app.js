@@ -1,5 +1,6 @@
 const userChoice = "";
-// Write either "FuNNy" or "moTivatiOn" between the "" marks and 
+// Write either "FuNNy" for funny quotes or 
+// "moTivatiOn" to get motivational quotes between the "" marks and 
 // RUN the Program :)
 
 
